@@ -1,4 +1,4 @@
-import isEqual from 'lodash.isequal';
+import isEqual from '../lodash_deepEq/isEqual';
 import { throwIfNullOrUndefined } from '../throwHelper';
 
 /** @module */

@@ -1,6 +1,6 @@
-import isEqual from 'lodash.isequal';
-import { throwIfNullOrUndefined } from '../throwHelper';
-import Vec from './vec.core';
+import isEqual from "../lodash_deepEq/isEqual";
+import { throwIfNullOrUndefined } from "../throwHelper";
+import Vec from "./vec.core";
 
 /** @module */
 
@@ -20,7 +20,7 @@ import Vec from './vec.core';
  * // => [ 1, 2, 3, { n: 1 } ]
  */
 function distinct() {
-  throwIfNullOrUndefined(this, 'this');
+  throwIfNullOrUndefined(this, "this");
 
   const set = new Set();
 

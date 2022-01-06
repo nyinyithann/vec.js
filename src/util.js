@@ -1,8 +1,9 @@
 /* eslint-disable */
 export function getTag(value) {
-  return typeof value === 'object' && value != null
-    ? Object.prototype.toString.call(value)
-    : '';
+  if (value == null) {
+    return value === undefined ? '[object Undefined]' : '[object Null]';
+  }
+  return toString.call(value);
 }
 
 export function isNull(value) {
@@ -71,4 +72,29 @@ export function isPrimitive(value) {
     isString(value) ||
     isBoolean(value)
   );
+}
+
+export function isObjectLike(value) {
+  return typeof value === 'object' && value !== null;
+}
+
+export function sameValueZeroEqual(value, other) {
+  return value === other || (value !== value && other !== other);
+}
+
+export function isLength(value) {
+  return (
+    typeof value === 'number' &&
+    value > -1 &&
+    value % 1 == 0 &&
+    value <= Number.MAX_SAFE_INTEGER
+  );
+}
+
+export function isArrayLike(value) {
+  return value != null && typeof value !== 'function' && isLength(value.length);
+}
+
+export function isArguments(value) {
+  return isObjectLike(value) && getTag(value) == '[object Arguments]';
 }

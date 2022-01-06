@@ -1,20 +1,20 @@
-import Vec from "./vec/vec.main";
-import isEqual from "lodash.isequal";
-
+import isEqual from '../src/lodash_deepEq/isEqual';
 import {
-  isUndefined,
-  isNull,
+  isBigInt,
+  isBoolean,
   isFunction,
   isGeneratorFunction,
+  isIterable,
+  isNull,
+  isNumber,
+  isObject,
+  isObjectLike,
   isPrimitive,
-  isBoolean,
   isString,
   isSymbol,
-  isBigInt,
-  isNumber,
-  isIterable,
-  isObject,
-} from "./util";
+  isUndefined,
+} from './util';
+import Vec from './vec/vec.main';
 
 export {
   Vec,
@@ -30,5 +30,6 @@ export {
   isNumber,
   isIterable,
   isObject,
+  isObjectLike,
   isEqual,
 };

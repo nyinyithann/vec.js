@@ -1,10 +1,10 @@
-import isEqual from 'lodash.isequal';
+import isEqual from "../lodash_deepEq/isEqual";
 import {
   throwIfGeneratorFunction,
   throwIfNotFunction,
   throwIfNullOrUndefined,
-} from '../throwHelper';
-import Vec from './vec.core';
+} from "../throwHelper";
+import Vec from "./vec.core";
 
 /** @module */
 
@@ -47,9 +47,9 @@ import Vec from './vec.core';
  *  [ { name: 'FcukTheCoup', family: { name: 'Generation Z' } } ]
  */
 function groupBy(projection) {
-  throwIfNullOrUndefined(this, 'this');
-  throwIfNotFunction(projection, 'projection');
-  throwIfGeneratorFunction(projection, 'projection');
+  throwIfNullOrUndefined(this, "this");
+  throwIfNotFunction(projection, "projection");
+  throwIfGeneratorFunction(projection, "projection");
 
   let thisArg;
 

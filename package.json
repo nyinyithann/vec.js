@@ -1,6 +1,6 @@
 {
   "name": "@jazz/vec.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "build/cjs/vec.js",
   "module": "build/esm/vec.js",
   "browser": "build/umd/vec.min.js",
@@ -16,16 +16,12 @@
   "author": "Nyi Nyi Than (@Jazz) <nyinyithann@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nyinyithann/vec.js.git"
+    "url": "git+https://github.com/nyinyithann/vec.js.git"
   },
   "bugs": {
     "url": "https://github.com/nyinyithann/vec.js/issues"
   },
   "homepage": "https://github.com/nyinyithann/vec.js#readme",
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org",
-    "access": "public"
-  },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
     "@babel/core": "^7.16.7",
@@ -56,8 +52,5 @@
     "iv": "npm --no-git-tag-version version patch",
     "verdaccio-publish": "npm run iv & npm publish --registry http://localhost:4873",
     "verdaccio-unpublish": "npm unpublish --force --registry http://localhost:4873/  @jazz/vec.js"
-  },
-  "dependencies": {
-    "lodash.isequal": "^4.5.0"
   }
 }
