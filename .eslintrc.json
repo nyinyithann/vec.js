@@ -1,0 +1,35 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "google", "prettier"],
+  "ignorePatterns": ["./tests/*.js"],
+  "rules": {
+    "func-names": "off",
+    "no-empty-function": "off",
+    "import/extensions": "off",
+    "no-underscore-dangle": "off",
+    "max-len": "off",
+    "prefer-destructuring": "off",
+    "prefer-rest-params": "off",
+    "prefer-regex-literals": "off",
+    "no-restricted-syntax": "off",
+    "no-sparse-arrays": "off",
+    "eol-last": "off",
+    "import/newline-after-import": "off",
+    "object-curly-newline": "off",
+    "no-mixed-operators": "off",
+    "padded-blocks": "off",
+    "arrow-parens": "off",
+    "no-multiple-empty-lines": "off",
+    "wrap-iife": "off",
+    "no-return-assign": "off",
+    "comma-dangle": "off",
+    "no-invalid-this": "off"
+  }
+}

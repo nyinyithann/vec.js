@@ -1,0 +1,4 @@
+build/*
+tests/*.js
+./jest.config.js
+./rollup.config.js
