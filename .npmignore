@@ -2,6 +2,7 @@
 .eslintignore
 .eslintrc.json
 .gitignore
+.github
 rollup.config.js
 src
 api.docs
