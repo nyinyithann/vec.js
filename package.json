@@ -1,6 +1,7 @@
 {
-  "name": "@jazz/vec.js",
+  "name": "@nyinyithann/vec.js",
   "version": "1.0.0",
+  "description": "Vec.js extends Javascript Array.",
   "main": "build/cjs/vec.js",
   "module": "build/esm/vec.js",
   "browser": "build/umd/vec.min.js",
@@ -13,7 +14,7 @@
     "ES2015",
     "functioanl programming"
   ],
-  "author": "Nyi Nyi Than (@Jazz) <nyinyithann@gmail.com>",
+  "author": "Nyi Nyi Than <nyinyithann@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nyinyithann/vec.js.git"
