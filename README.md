@@ -5,7 +5,7 @@ Vec.js is a JavaScript library for nodeJS and browser. Vec.js extends JavaScript
 ## Installation
 
 ```javascript
-npm install @jazz/vec.js
+npm install @nyinyithann/vec.js
 ```
 
 ## Getting started
@@ -91,6 +91,7 @@ Nyi Nyi Than - [@nyinyithann](https://www.linkedin.com/in/nyinyithan/)
 ### Credit
 
 - [F# Collections](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections.html)
+- [lodash - Vec.js shamelessly steals isEequal code from lodash :-)](https://github.com/lodash/lodash/blob/2da024c3b4/eqDeep.js)
 - [Exploring ES6](https://exploringjs.com/es6.html) By [Dr. Axel Rauschmayer](https://2ality.com/p/about.html)
 - [Understanding ECMAScript 6](https://leanpub.com/understandinges6) By [Nicholas C. Zakas](https://humanwhocodes.com/)
 - [Collection Pipeline](https://martinfowler.com/articles/collection-pipeline/)
