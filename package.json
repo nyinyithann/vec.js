@@ -1,5 +1,5 @@
 {
-  "name": "@nyinyithann/vec",
+  "name": "@nyinyithann/vec.js",
   "version": "1.0.0",
   "description": "Vec.js extends Javascript Array.",
   "main": "build/cjs/vec.js",

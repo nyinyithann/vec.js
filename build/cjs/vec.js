@@ -3391,7 +3391,7 @@ Vec.prototype.binarySearch = binarySearch;
 Vec.prototype.permute = permute;
 Vec.prototype.transpose = transpose;
 
-exports.Vec = Vec;
+exports["default"] = Vec;
 exports.isBigInt = isBigInt;
 exports.isBoolean = isBoolean;
 exports.isEqual = isEqual;

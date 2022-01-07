@@ -1,4 +1,4 @@
-import isEqual from '../src/lodash_deepEq/isEqual';
+import isEqual from "../src/lodash_deepEq/isEqual";
 import {
   isBigInt,
   isBoolean,
@@ -13,11 +13,13 @@ import {
   isString,
   isSymbol,
   isUndefined,
-} from './util';
-import Vec from './vec/vec.main';
+} from "./util";
+
+import Vec from "./vec/vec.main";
+
+export default Vec;
 
 export {
-  Vec,
   isUndefined,
   isNull,
   isFunction,

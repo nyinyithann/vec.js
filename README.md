@@ -2,6 +2,10 @@
 
 Vec.js is a JavaScript library for nodeJS and browser. Vec.js extends JavaScript Array. The library is heavily inspired and influenced by F# Array module.
 
+## Documentation
+
+Please go to [Vec APIs](/api.docs/vec.api.md) to read more.
+
 ## Installation
 
 ```javascript
@@ -22,7 +26,72 @@ const howLongAStormLast = (d) => fnVec.reduce((s, f) => f(s), d);
 console.log(howLongAStormLast(10.5)); // => 2.315032397181517
 ```
 
-`Vec` comes with additional 50+ methods. The following snippets demonstrate some of them.
+`Vec` has the following methods.
+
+#### Static Methods
+
+```
+empty
+init
+create
+isVec
+some2
+every2
+fold2
+foldRight2
+forEach2
+map2
+map3
+zip3
+unfold
+allPairs
+```
+
+#### Instance Methods
+
+```
+isEmpty
+copy
+countBy
+findRight
+findIndexRight
+head
+tail
+get
+set
+last
+take
+takeWhile
+skipWhile
+min
+max
+minBy
+maxBy
+sum
+sumBy
+average
+averageBy
+splitAt
+partition
+scan
+scanRight
+windowed
+zip
+unzip
+distinct
+distinctBy
+pairwise
+except
+groupBy
+mapFold
+mapFoldRight
+chunkBySize
+binarySearch
+permute
+transpose
+```
+
+Some sample code below.
 
 ```javascript
 // unfold
