@@ -3,6 +3,7 @@
 .eslintrc.json
 .gitignore
 .github
+.idea
 rollup.config.js
 src
 api.docs
