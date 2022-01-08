@@ -17,9 +17,8 @@ import {
 
 import Vec from "./vec/vec.main";
 
-export default Vec;
-
 export {
+  Vec,
   isUndefined,
   isNull,
   isFunction,

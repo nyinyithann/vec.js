@@ -3387,4 +3387,4 @@ Vec.prototype.binarySearch = binarySearch;
 Vec.prototype.permute = permute;
 Vec.prototype.transpose = transpose;
 
-export { Vec as default, isBigInt, isBoolean, isEqual, isFunction, isGeneratorFunction, isIterable, isNull, isNumber, isObject, isObjectLike, isPrimitive, isString, isSymbol, isUndefined };
+export { Vec, isBigInt, isBoolean, isEqual, isFunction, isGeneratorFunction, isIterable, isNull, isNumber, isObject, isObjectLike, isPrimitive, isString, isSymbol, isUndefined };
